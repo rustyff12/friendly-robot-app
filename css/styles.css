@@ -1,0 +1,66 @@
+/* --- Resets --- */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    background: url(../images/ai-hands.jpg);
+    background-size: cover;
+}
+
+/* --- Variables --- */
+
+
+/* --- Global --- */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    /* border: 2px solid red; */
+}
+
+/* --- Body --- */
+.header {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 3rem;
+    /* border: 2px solid red; */
+}
+
+.item {
+    width: 40%;
+    font-size: 1.5rem;
+    margin: 1rem;
+    /* border: 2px solid red; */
+}
+
+.input > label {
+    color: #fff;
+}
+
+.input > input {
+
+}
+
+.input > button {
+    /* background: rgb(50,48,45); */
+    background: linear-gradient(126deg, rgba(50,48,45,1) 0%, rgba(119,116,113,1) 50%, rgba(230,226,225,1) 100%);
+    color: #FFF;
+    border-radius: 10px;
+    border: 2px solid rgb(50,48,45);
+    text-transform: uppercase;
+    padding: 0.3rem 0;
+}
